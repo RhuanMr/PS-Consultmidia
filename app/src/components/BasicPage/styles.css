@@ -8,6 +8,17 @@
 .leftConatiner {
     display: flex;
     width: 30%;
+    flex-direction: column;
+}
+
+.imageLeftContent {
+    display: flex;
+    margin-top: 25%;
+    width: 100%;
+}
+
+.imageLeftContent img {
+    width: 100%;
 }
 
 .rightContainer {
