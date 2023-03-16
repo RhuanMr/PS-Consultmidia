@@ -1,0 +1,20 @@
+.homeSelectCar {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.homeSelectCar span {
+    font-size: 18px;
+    margin-bottom: 3%;
+    color: #FFFFFF;
+}
+
+.selectContainer {
+    display: flex;
+    align-items: center;
+    width: 30%;
+    justify-content: space-between;
+    flex-direction: row;
+}
+

@@ -5,7 +5,14 @@ import BasicPage from '../../components/BasicPage';
 
 const Result = () => {
     return(
-        <BasicPage image={ResultImage} />
+        <BasicPage image={ResultImage}>
+            <div className='containerResult'>
+                <h1>Sucesso!!!</h1>
+                <h2>{`Sua viagem de ${48}km`}</h2>
+                <h2>foi aprovada no valor de</h2>
+                <span>{`R$ ${500}`}</span>
+            </div>
+        </BasicPage>
     )
 };
 

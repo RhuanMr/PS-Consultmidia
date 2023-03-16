@@ -1,0 +1,43 @@
+.selectedButton {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+    height: 100px;
+    background-color: #EF553D;
+    border-radius: 10px;
+    flex-direction: column;
+    border-color: transparent;
+}
+
+.selectedButton img {
+    display: flex;
+    align-self: center;
+    justify-self: center;
+}
+
+.selectedButton span {
+    font-size: 14px;
+}
+
+.normalSelectButton {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    width: 100px;
+    height: 100px;
+    background-color: #3662D2;
+    border-color: transparent;
+    flex-direction: column;
+}
+
+.normalSelectButton img {
+    display: flex;
+    align-self: center;
+    justify-self: center;
+}
+
+.normalSelectButton span {
+    font-size: 14px;
+}
