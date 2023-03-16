@@ -1,0 +1,17 @@
+.containerHeader {
+    display: flex;
+    flex-direction: row;
+    height: 80px;
+    margin-top: 5%;
+    margin-left: 5%;
+    background-color: transparent;
+    border: none;
+}
+
+.headerName {
+    display: flex;
+    flex-direction: column;
+    color: #709FE6;
+    font-size: 32px;
+    margin-left: 10%;
+}

@@ -1,13 +1,7 @@
 import React from 'react';
+import BasicPage from '../../components/BasicPage';
 import './styles.css';
 
-const Home = () => {
-
-    return(
-        <div className='containerProduct'>
-            <h1>Home</h1>
-        </div>
-    )
-};
+const Home = () => <BasicPage />
 
 export default Home;

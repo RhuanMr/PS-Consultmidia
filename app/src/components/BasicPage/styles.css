@@ -1,0 +1,18 @@
+.containerPage {
+    display: flex;
+    flex: 1;
+    height: 100vh;
+    flex-direction: row;
+}
+
+.leftConatiner {
+    display: flex;
+    width: 30%;
+}
+
+.rightContainer {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    background-color: #709FE6;
+}
