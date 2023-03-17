@@ -1,0 +1,18 @@
+.textInput {
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+}
+
+.textInput span {
+    font-size: 18px;
+    color: #FFFFFF;
+}
+
+.textInput input {
+    margin-top: 2%;
+    width: 400px;
+    height: 50px;
+    border-radius: 10px;
+    border-color: transparent;
+}

@@ -1,0 +1,6 @@
+.containerResult {
+    display: flex;
+    flex-direction: column;
+    margin-top: 15%;
+    margin-left: 5%;
+}

@@ -1,0 +1,29 @@
+.containerPage {
+    display: flex;
+    flex: 1;
+    height: 100vh;
+    flex-direction: row;
+}
+
+.leftConatiner {
+    display: flex;
+    width: 30%;
+    flex-direction: column;
+}
+
+.imageLeftContent {
+    display: flex;
+    margin-top: 25%;
+    width: 100%;
+}
+
+.imageLeftContent img {
+    width: 100%;
+}
+
+.rightContainer {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    background-color: #709FE6;
+}

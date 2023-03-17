@@ -1,13 +1,20 @@
 import React from 'react';
+import BasicPage from '../../components/BasicPage';
+import ImageHome from './assets/imageHome.jpg'
+import HomeForm from './components/FormHome';
+import HomeHooks from './hooks';
 import './styles.css';
 
 const Home = () => {
-
+    const { handleSubmit } = HomeHooks();
     return(
-        <div className='containerProduct'>
-            <h1>Home</h1>
-        </div>
+        <BasicPage image={ImageHome}>
+            <div className='containerHome'>
+                <h1>Formulário</h1>
+                <HomeForm handleSubmit={handleSubmit}/>
+            </div>
+        </BasicPage>
     )
-};
+}
 
 export default Home;
