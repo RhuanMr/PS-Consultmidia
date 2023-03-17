@@ -1,10 +1,11 @@
-import React, { useState } from "react";
+import { useState } from "react";
 
-const HomeSelectHooks = () => {
-    const [isSelect, setSelect] = useState("Básico");
+const HomeSelectHooks = ({handleSelect}) => {
+    const [isSelect, setIsSelect] = useState("");
 
     const handleClick = (value) => {
-        setSelect(value);
+        setIsSelect(value);
+        handleSelect(value);
     }
 
     return {
