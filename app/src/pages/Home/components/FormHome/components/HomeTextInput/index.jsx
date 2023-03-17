@@ -1,14 +1,20 @@
 import React from 'react';
+import Autocomplete from "react-google-autocomplete";
 import './styles.css';
 
-const HomeTextInput = ({name, value, handleChange}) => (
+const HomeTextInput = ({name, handleChange}) => (
     <div className='textInput'>
         <span>
             {
                 name
             }
         </span>
-        <input value={value} onChange={handleChange}/>
+        <Autocomplete
+            apiKey={"AIzaSyBJfzCkYYeVGZPYaaYLBxZV1HweI8gp3wU"}
+            onPlaceSelected={(place) => {
+                handleChange(place);
+            }}
+        />
     </div>
 )
 

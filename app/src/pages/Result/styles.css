@@ -4,3 +4,31 @@
     margin-top: 15%;
     margin-left: 5%;
 }
+
+.containerResult h1 {
+    color: #82F32A;
+    font-size: 48px;
+    margin-bottom: 5%;
+}
+
+.containerResult h2 {
+    color: #FFFFFF;
+    font-size: 32px;
+}
+
+.containerResult span {
+    font-size: 36px;
+    color: #3662D2;
+    margin-bottom: 10%;
+}
+
+.containerResult button {
+    width: 400px;
+    align-self: center;
+    height: 60px;
+    color: #82F32A;
+    background-color: #FFFFFF;
+    border-radius: 10px;
+    border-color: transparent;
+
+}

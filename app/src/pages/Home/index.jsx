@@ -11,7 +11,7 @@ const Home = () => {
         <BasicPage image={ImageHome}>
             <div className='containerHome'>
                 <h1>Formulário</h1>
-                <HomeForm handleSubmit={handleSubmit}/>
+                <HomeForm handleSubmit={handleSubmit} />
             </div>
         </BasicPage>
     )

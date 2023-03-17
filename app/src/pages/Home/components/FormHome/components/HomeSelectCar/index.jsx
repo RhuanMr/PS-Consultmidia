@@ -6,11 +6,11 @@ import './styles.css';
 import ButtonSelectHome from './components/buttonSelectHome';
 import HomeSelectHooks from './hooks';
 
-const HomeSelectCar = () => {
+const HomeSelectCar = ({handleSelect}) => {
     const {
         isSelect,
         handleClick
-    } = HomeSelectHooks();
+    } = HomeSelectHooks({handleSelect});
     return(
         <div className='homeSelectCar'>
             <span>Tipo de carro</span>
