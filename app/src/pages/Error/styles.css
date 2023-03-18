@@ -1,0 +1,30 @@
+.containerError {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    width: 100vw;
+    height: 100vh;
+}
+
+.headerErrorContent {
+    height: 5vh;
+}
+
+.contentError {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-self: center;
+}
+
+.contentError h1 {
+    color: #709FE6;
+}
+
+.contentError h2 {
+    color: #F24E1E;
+}
+
+.contentError img{
+    width: 40%;
+}
