@@ -2,7 +2,7 @@
 
 ## Link da aplicação
 
--[New Car](https://melodic-pie-6319c9.netlify.app/)
+- [New Car](https://melodic-pie-6319c9.netlify.app/)
 
 ## Dependências
 
