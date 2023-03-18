@@ -1,8 +1,8 @@
 import { useState } from "react";
 
 const HomeFormHooks = ({ handleSubmit }) => {
-    const [origin, setOrigin] = useState({});
-    const [destiny, setDestiny] = useState({});
+    const [origin, setOrigin] = useState("");
+    const [destiny, setDestiny] = useState("");
     const [type, setType] = useState("");
 
 
